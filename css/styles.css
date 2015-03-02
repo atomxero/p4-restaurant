@@ -18,20 +18,43 @@
 
 }
 
-
+body {
+	background: url("../img/stardust.png");
+}
 
 h2 {
 
-	text-align: center;
-}
-h4 {
-
+	color: white;
 	text-align: center;
 }
 
 h3 {
 
+	color: rgb(196, 172, 48);
 	text-align: center;
+}
+
+h4 {
+
+	text-align: center;
+}
+
+p {
+	color: red;
+}
+
+.y {
+	color:yellow;
+}
+
+.lb{
+	color: rgb(118,218,233);
+}
+.r {
+	color: red;
+}
+.g {
+	color: rgb(133,248,131);
 }
 
 .menu {
