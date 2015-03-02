@@ -19,9 +19,12 @@
 }
 
 body {
-	background: url("../img/stardust.png");
+	background-color: black;
 }
 
+header {
+	background-color: white;
+}
 h2 {
 
 	color: white;
@@ -42,6 +45,37 @@ h4 {
 p {
 	color: red;
 	font-family: 'Lato', sans-serif;
+}
+
+
+nav a:link, 
+nav a:visited {
+	color: red;
+}
+
+nav a:hover, 
+nav a:active {
+	color: white;
+}
+
+section img,
+section .plate {
+  
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+ 
+
+}
+
+section .plate {
+  z-index: -1;
+  opacity: 0;
+  transition: opacity .25s;
+}
+section:hover .plate {
+  z-index: 0;
+  opacity: 1;
 }
 
 .y {
@@ -68,32 +102,5 @@ p {
 }
 .time {
 	text-align: center;
-}
-
-nav a:link, 
-nav a:visited {
-	color: red;
-}
-
-nav a:hover, 
-nav a:active {
-	color: white;
-}
-
-section img,
-section .plate {
-  
-  width: 200px;
-  height: 150px;
-}
-
-section .plate {
-  z-index: -1;
-  opacity: 0;
-  transition: opacity .25s;
-}
-section:hover .plate {
-  z-index: 0;
-  opacity: 1;
 }
 
