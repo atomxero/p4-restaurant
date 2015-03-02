@@ -30,17 +30,18 @@ h2 {
 
 h3 {
 
-	color: rgb(196, 172, 48);
+	color: white;
 	text-align: center;
 }
 
 h4 {
-
+	color: white;
 	text-align: center;
 }
 
 p {
 	color: red;
+	font-family: 'Lato', sans-serif;
 }
 
 .y {
@@ -67,6 +68,16 @@ p {
 }
 .time {
 	text-align: center;
+}
+
+nav a:link, 
+nav a:visited {
+	color: red;
+}
+
+nav a:hover, 
+nav a:active {
+	color: white;
 }
 
 section img,
