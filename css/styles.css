@@ -29,17 +29,18 @@ h2 {
 
 	color: white;
 	text-align: center;
-}
+font-family: 'Indie Flower', cursive;}
 
 h3 {
 
 	color: white;
 	text-align: center;
-}
+font-family: 'Indie Flower', cursive;}
 
 h4 {
 	color: white;
 	text-align: center;
+font-family: 'Indie Flower', cursive;
 }
 
 p {
@@ -58,12 +59,20 @@ nav a:active {
 	color: white;
 }
 
+
+
+section img {
+  border: 10px solid;
+
+}
 section img,
 section .plate {
   
   width: 200px;
   height: 200px;
   border-radius: 100px;
+  border-color: red;
+
  
 
 }
@@ -80,6 +89,7 @@ section:hover .plate {
 
 .y {
 	color:yellow;
+	border-color: yellow;
 }
 
 .lb{
