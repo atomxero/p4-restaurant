@@ -44,8 +44,8 @@ font-family: 'Indie Flower', cursive;
 }
 
 p {
-	color: red;
-	font-family: 'Lato', sans-serif;
+	color: white;
+	font-family: 'Indie Flower', cursive;
 }
 
 
@@ -62,16 +62,17 @@ nav a:active {
 
 
 section img {
-  border: 10px solid;
+  border: 10px solid white;
 
 }
+
 section img,
 section .plate {
   
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  border-color: red;
+
 
  
 
